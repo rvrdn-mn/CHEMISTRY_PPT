@@ -119,7 +119,7 @@ export const Slide1 = () => (
     title={<>The Toxic<br/>Afterlife.</>}
     subtitle="A Data-Driven Analysis of E-Waste Hotspots — examining Seelampur (Delhi), Moradabad (Uttar Pradesh), and Agbogbloshie (Accra, Ghana)."
     details="Bridging the gap between digital innovation and biological degradation. Using 2026 data from Nature, The Lancet, and PMC studies."
-    bgImage="/assets/hero-bg.png"
+    bgImage="assets/hero-bg.png"
     overlayOpacity={0.5}
   />
 );
@@ -130,7 +130,7 @@ export const Slide2 = () => (
     title="Data from 2026 highlighting the true scale of electronic waste."
     body="Global e-waste production has reached a critical inflection point. The sheer volume of discarded electronics now exceeds the capacity of formal recycling infrastructure by a factor of five, pushing millions of tonnes into unregulated informal processing hubs across the developing world."
     body2="While formal recycling accounts for under 20% of total output, the informal sector — operating without PPE, environmental safeguards, or labor protections — supports millions of vulnerable workers, including children."
-    bgImage="/assets/ewaste_circuit.jpg"
+    bgImage="assets/ewaste_circuit.jpg"
     dataItems={[
       { highlight: true, val: '65M+', desc: 'Tonnes of global e-waste generated annually, growing 3-5% year-on-year with no signs of decelerating.' },
       { val: '<20%', desc: 'Formally recycled through regulated channels. The remaining 80% enters landfills, incinerators, or informal hubs.' },
@@ -145,7 +145,7 @@ export const Slide3 = () => (
     quote="E-waste has been identified as a primary driver of heavy metal bioaccumulation in the Global South."
     author="Nature & The Lancet · 2025 Meta-Analysis"
     context="This landmark meta-analysis consolidated over 200 studies from three continents, providing the strongest evidence to date linking informal e-waste processing to systemic ecosystem collapse and human disease."
-    bgImage="/assets/ewaste_circuit.jpg"
+    bgImage="assets/ewaste_circuit.jpg"
   />
 );
 
@@ -181,7 +181,7 @@ export const Slide6 = () => (
     title={<>The Midnight<br/>Node.</>}
     subtitle="Seelampur, Delhi — India's largest informal e-waste hub. Tucked inside narrow lanes, an entire underground economy processes 30,000 to 50,000 tonnes of discarded electronics every year."
     details="Case Study 1 of 3 · Seelampur is classified as the primary nerve center for informal e-waste processing across the entire northern Indian subcontinent."
-    bgImage="/assets/real_seelampur.jpg"
+    bgImage="assets/real_seelampur.jpg"
   />
 );
 
@@ -189,7 +189,7 @@ export const Slide7 = () => (
   <SplitSlide
     label="Case Study 1 · Seelampur, Delhi"
     title="Operational Scale."
-    image="/assets/real_seelampur.jpg"
+    image="assets/real_seelampur.jpg"
     bodyParagraphs={[
       "Seelampur operates as the primary nerve center for informal e-waste processing across northern India. Workers — many of them children as young as 8 — sort, dismantle, and strip electronic components by hand in cramped, windowless, and completely unventilated workshops.",
       "The hub handles everything from discarded smartphones and laptops to industrial-grade server racks and CRT monitors. Components are sorted by metal type (copper, aluminum, gold-bearing) and sold to a chain of middlemen before being subjected to acid stripping for precious metal recovery.",
@@ -205,7 +205,7 @@ export const Slide8 = () => (
     title="The Blood Lead Crisis."
     body="A 2024 PMC study found that the median Blood Lead Level (BLL) among children living and working in Seelampur stands at 8.5 µg/dL — significantly above the WHO threshold for intervention. 33% of sampled children exceeded the level associated with severe, irreversible neurotoxic damage."
     body2="Lead is a cumulative toxicant with no known safe level of exposure. In children, it attacks the developing nervous system, causing permanent reductions in IQ, attention span, and behavioral regulation."
-    bgImage="/assets/seelampur.png"
+    bgImage="assets/seelampur.png"
     dataItems={[
       { highlight: true, val: '8.5 µg/dL', desc: 'Median Child Blood Lead Level (BLL) in Seelampur — well above the WHO action threshold of 5 µg/dL.' },
       { val: '33%', desc: 'Of sampled children exceed WHO thresholds for severe neurotoxicity, risking permanent IQ reduction.' },
@@ -220,7 +220,7 @@ export const Slide9 = () => (
     title="The Midnight Economy."
     body="To evade pollution monitoring systems and regulatory patrols, the most toxic phase of e-waste processing — open acid stripping using nitric and hydrochloric acid — shifts to the dead of night. Between midnight and 6 AM, fumes from acid baths rise unchecked into residential neighborhoods."
     body2="During daytime grinding operations, workers inhale FR-4 glass epoxy dust — the fiberglass substrate of printed circuit boards — leading to a chronic respiratory condition locally known as 'E-Waste Cough.' No respiratory protection is provided at any stage of the process."
-    bgImage="/assets/real_seelampur.jpg"
+    bgImage="assets/real_seelampur.jpg"
     dataItems={[
       { highlight: true, val: '12am – 6am', desc: 'The operational window for acid stripping, strategically timed to avoid pollution monitoring patrols.' },
       { val: 'E-Waste Cough', desc: 'A chronic respiratory condition caused by inhaling FR-4 glass epoxy particles during manual PCB grinding.' },
@@ -238,7 +238,7 @@ export const Slide10 = () => (
     title={<>The Acid<br/>Basin.</>}
     subtitle="Moradabad, Uttar Pradesh — home to 50% of India's Printed Circuit Board processing. Nitric and hydrochloric acid are dumped directly into the Ramganga River basin, turning both soil and water into a toxic cocktail."
     details="Case Study 2 of 3 · Once known as India's 'Brass City,' Moradabad's identity has been reshaped by the informal electronics recycling industry."
-    bgImage="/assets/real_moradabad.jpg"
+    bgImage="assets/real_moradabad.jpg"
   />
 );
 
@@ -246,7 +246,7 @@ export const Slide11 = () => (
   <SplitSlide
     label="Case Study 2 · Moradabad, Uttar Pradesh"
     title="The Ramganga River Crisis."
-    image="/assets/real_moradabad.jpg"
+    image="assets/real_moradabad.jpg"
     imageLeft
     bgAlt
     bodyParagraphs={[
@@ -264,7 +264,7 @@ export const Slide12 = () => (
     title="The Leaching Process."
     body="Precious metals are extracted using Aqua Regia — a volatile, fuming mixture of concentrated nitric acid (HNO₃) and hydrochloric acid (HCl) in a 1:3 ratio. This mixture dissolves gold and platinum from circuit boards. The spent acid, now saturated with dissolved heavy metals, is dumped directly into soil and local waterways without any neutralization or treatment."
     body2="The resulting soil acidification has reached pH 4.0 in areas immediately surrounding processing sites — a level comparable to battery acid and far below the threshold required for any form of agricultural activity."
-    bgImage="/assets/moradabad_river2.jpg"
+    bgImage="assets/moradabad_river2.jpg"
     dataItems={[
       { highlight: true, val: 'pH 4.0', desc: 'Extreme soil acidification around processing sites. For comparison, normal agricultural soil requires pH 6.0–7.5.' },
       { val: 'HNO₃ + HCl', desc: 'Aqua Regia — the corrosive acid mixture used for dissolving gold and silver from PCB substrates.' },
@@ -279,7 +279,7 @@ export const Slide13 = () => (
     title="Food Chain Contamination."
     body="Staple crops grown in contaminated Moradabad soil — including tomato, potato, and brinjal — are acting as 'accidental phytoremediators,' absorbing toxic levels of Lead (Pb), Cadmium (Cd), and Mercury (Hg) directly from the acidified earth. These vegetables enter local markets and are consumed daily by unsuspecting communities."
     body2="Parthenium hysterophorus, an invasive weed commonly found near processing sites, has also been documented absorbing significant metal loads — inadvertently concentrating toxins in the topsoil food web."
-    bgImage="/assets/real_moradabad.jpg"
+    bgImage="assets/real_moradabad.jpg"
     dataItems={[
       { highlight: true, val: 'Bio-Pumps', desc: 'Crops absorb heavy metals directly from acidified soil, creating a direct pathway into the human food chain.' },
       { val: 'Pb, Cd, Hg', desc: 'Lead, Cadmium, and Mercury detected above safe limits in locally grown and consumed vegetables.' },
@@ -297,7 +297,7 @@ export const Slide14 = () => (
     title={<>Toxic<br/>Colonialism.</>}
     subtitle="Agbogbloshie, Accra, Ghana — one of the world's most contaminated places. E-waste generated in the global north is shipped, burned, and stripped here by workers simultaneously hailed as 'Climate Heroes' and denied basic healthcare."
     details="Case Study 3 of 3 · The Basel Action Network has documented the scale of illegal trans-boundary e-waste shipments arriving at Accra's ports, many mislabeled as 'second-hand goods.'"
-    bgImage="/assets/real_agbogbloshie.jpg"
+    bgImage="assets/real_agbogbloshie.jpg"
     overlayOpacity={0.5}
   />
 );
@@ -306,7 +306,7 @@ export const Slide15 = () => (
   <SplitSlide
     label="Case Study 3 · Agbogbloshie, Accra"
     title="Mortuary Road: Ground Zero."
-    image="/assets/agbogbloshie_burning.jpg"
+    image="assets/agbogbloshie_burning.jpg"
     bodyParagraphs={[
       "Operations in Agbogbloshie are spread across highly disorganized, severely polluted zones surrounding Mortuary Road. Workers manually burn copper wiring in open-air pits to recover raw metal, releasing chlorinated dioxins and furans directly into the atmosphere.",
       "The Basel Action Network has documented the scale of illegal trans-boundary e-waste shipments arriving at Accra's ports, many mislabeled as second-hand goods to bypass international waste regulations established under the Basel Convention.",
@@ -322,7 +322,7 @@ export const Slide16 = () => (
     title="Atmospheric & Water Breakdown."
     body="Open burning of e-waste at Agbogbloshie releases Persistent Organic Pollutants (POPs) — including chlorinated dioxins, furans, and polychlorinated biphenyls — directly into the atmosphere. These compounds are among the most toxic substances known to science, accumulating in biological tissue and persisting in the environment for decades."
     body2="The nearby Odaw River, which flows through the site and into the Gulf of Guinea, has been officially classified as biologically dead — completely unable to support aquatic life of any kind due to saturated heavy metal concentrations."
-    bgImage="/assets/agbogbloshie_workers.jpg"
+    bgImage="assets/agbogbloshie_workers.jpg"
     dataItems={[
       { highlight: true, val: 'POPs', desc: 'Persistent Organic Pollutants: chlorinated dioxins, furans, and PCBs released from burning copper wire and plastics at high temperatures.' },
       { val: 'Odaw River', desc: 'Classified as biologically dead — unable to support any aquatic life. A total ecological collapse of the waterway.' },
@@ -337,7 +337,7 @@ export const Slide17 = () => (
     title="The Dioxin Disaster."
     body="In a landmark study, a single free-range egg collected near the Agbogbloshie site contained chlorinated dioxin levels 220 times higher than European Food Safety Authority limits. Brominated dioxin levels in the same sample broke all previously recorded global measurements."
     body2="The implications for the local food chain are catastrophic. Dioxins bioaccumulate — meaning each step up the food chain concentrates the toxin further. Communities consuming local poultry, eggs, and dairy products face compounding exposure with every meal."
-    bgImage="/assets/real_agbogbloshie.jpg"
+    bgImage="assets/real_agbogbloshie.jpg"
     dataItems={[
       { highlight: true, val: '220x', desc: 'Dioxin levels in a single free-range egg exceeded EU safety limits by a factor of 220.' },
       { val: 'Record', desc: 'Brominated dioxin levels shattered all previously documented measurements in global environmental science.' },
@@ -413,7 +413,7 @@ export const Slide20 = () => (
     quote="The poorest people recycle the richest waste at the highest personal cost."
     author="The Informal Paradox · 2026"
     context="Until the true environmental and biological cost of electronics is internalized by the industries that produce them, the cycle of toxic externalization will continue to claim lives at the margins of the global economy."
-    bgImage="/assets/agbogbloshie_workers.jpg"
+    bgImage="assets/agbogbloshie_workers.jpg"
     bgAlt={false}
   />
 );
